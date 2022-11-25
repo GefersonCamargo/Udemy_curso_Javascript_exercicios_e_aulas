@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    display: flex;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: "Poopins";
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.container {
+    width: 326px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto;
+}
+
+.container figure {
+    margin-bottom: 20px;
+}
+
+.container span {
+    width: 190px;
+    height: 190px;
+
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.container figure span img {
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container figure figcaption {
+    font-size: 1rem;
+    margin: 15px 0 0;
+}
+
+.container .bt-link {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+.container .bt-link a {
+    height: 48px;
+    line-height: 48px;
+    margin: 0 5px 16px;
+
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.container .network {
+    width: 100%;
+    margin: 20px 0 0;
+    padding:  10px 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .network img {
+    width: 24px;
+    margin: 0 5px;
+}
